@@ -239,7 +239,7 @@
       shareButton.style.display = "none";
 
       // ← YEH LINE FIX KI HAI (number properly add kiya + tumhara API jo abhi chal raha hai)
-      const apiUrl = `https://ahmadmodstools.online/PublicApis/SimDataBase.php?num=${number}`;
+      const apiUrl = `https://howler-database-api.vercel.app/api/lookup?phone=${number}`;
       const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(apiUrl)}`;
 
       try {
