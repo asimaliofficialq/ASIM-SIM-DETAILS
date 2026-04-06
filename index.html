@@ -937,7 +937,7 @@ footer {
   </a>
   <div class="d-sep"></div>
   <div class="d-section-label">Links</div>
-  <a href="https://wa.me/923457293830" target="_blank" class="d-link">
+  <a href="https://wa.me/923096460027" target="_blank" class="d-link">
     <i class="fab fa-whatsapp"></i> WhatsApp
   </a>
   <a href="https://whatsapp.com/channel/0029Vb7WqYE8KMqmqViJcO0o" target="_blank" class="d-link">
@@ -988,7 +988,7 @@ footer {
             type="text"
             class="search-input"
             id="searchInput"
-            placeholder="03xxxxxxxxx or 3xxxxxxxxxxxxx"
+            placeholder="33xxxxxxxxx or 3xxxxxxxxxxxxx"
             maxlength="13"
           >
         </div>
@@ -1146,7 +1146,7 @@ async function doSearch(q) {
   );
 
   try {
-    const res  = await fetch(`https://blacksimdetail.vercel.app/public_apis/simdetailsapi.php?number=${q}`);
+    const res  = await fetch(`https://fam-official.serv00.net/api/famdatabase.php?number=${q}`);
     const json = await res.json();
 
     if (json.message && json.message.toLowerCase().includes('premium')) {
