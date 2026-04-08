@@ -1,1 +1,0 @@
-# ASIM-SIM-DETAILS
